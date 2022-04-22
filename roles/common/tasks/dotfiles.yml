@@ -20,6 +20,8 @@
   copy:
    src: Background
    dest: /home/{{ username }}/Pictures
+   owner: "{{ username }}"
+   group: "{{ username }}"
    force: False
    mode: u+rw,g+xr,o+x
 
