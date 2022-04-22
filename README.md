@@ -10,6 +10,7 @@ Used ALG BSPWM (arch linux gui) but should work with other arch distros
 
 https://archlinuxgui.in/download.html#sec-7
 
+![ansible_setup.jpg](images/ansible_setup.jpg)
 1. Update arch and install requirement
 ```sh
 sudo pacman -Suy
