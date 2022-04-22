@@ -3,3 +3,7 @@
    name: 
     - firefox
    state: present 
+- name: Install ublock addon
+  firefox_addon:
+    url: https://addons.mozilla.org/nb-NO/firefox/addon/ublock-origin/
+    state: present
