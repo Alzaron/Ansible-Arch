@@ -30,6 +30,7 @@
     - source-highlight
     - tree
     - base-devel
+    - ripgrep 
    state: present
 
 - name: install Firewall
