@@ -30,7 +30,8 @@
     - source-highlight
     - tree
     - base-devel
-    - ripgrep 
+    - ripgrep
+    - bat
    state: present
 
 - name: install Firewall
